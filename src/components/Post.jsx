@@ -1,5 +1,7 @@
 import React from 'react';
 
+import { Comment } from '../components/Comment';
+
 import styles from './Post.module.css';
 
 export function Post(props) {
@@ -14,7 +16,7 @@ export function Post(props) {
           </div>
         </div>
 
-        <time title='11 de Maio às 08:13' dateTime=''>
+        <time title='11 de Maio às 08:13' dateTime='2022-05-11 08:13:38'>
           publicado há 1h
         </time>
 
@@ -39,6 +41,12 @@ export function Post(props) {
           <button type='submit'>Comentar</button>
         </footer>
       </form>
+
+      <div className={styles.commentList}>
+       <Comment />
+       <Comment />
+      </div>
+     
     </article>
   )
 }
