@@ -1,9 +1,11 @@
 import React from 'react';
 import { PencilLine } from 'phosphor-react';
+import { Avatar } from '../components/Avatar';
 
 import igniteCapa from '../assets/ignite-capa.png';
 
 import styles from './SideBar.module.css';
+
 
 export function SideBar() {
   return (
@@ -12,7 +14,7 @@ export function SideBar() {
 
       <div className={styles.profile}>
 
-        <img src="https://github.com/WGS-94.png" />
+        <Avatar hasBorder={true} src="https://github.com/WGS-94.png" />
 
         <strong>Wilson Dos Santos</strong>
         <span>WebGIS Developer </span>

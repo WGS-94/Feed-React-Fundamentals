@@ -1,6 +1,6 @@
 import React from 'react';
-
-import { Comment } from '../components/Comment';
+import { Comment } from './Comment';
+import { Avatar } from './Avatar';
 
 import styles from './Post.module.css';
 
@@ -9,7 +9,7 @@ export function Post(props) {
     <article className={styles.post}>
       <header>
         <div className={styles.author}>
-          <img className={styles.avatar} src="https://github.com/WGS-94.png" alt="" />
+          <Avatar hasBorder={true} src="https://github.com/WGS-94.png" />
           <div className={styles.authorInfo}>
             <strong>Wilso Dos Santos</strong>
             <span>Web Developer</span>
