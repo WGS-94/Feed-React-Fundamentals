@@ -1,6 +1,7 @@
 import React from 'react';
+import { PencilLine } from 'phosphor-react';
 
-import igniteCapa from '../assets/ignite-capa.png'
+import igniteCapa from '../assets/ignite-capa.png';
 
 import styles from './SideBar.module.css';
 
@@ -19,6 +20,7 @@ export function SideBar() {
 
       <footer>
         <a href="#">
+          <PencilLine size={20} />
           Editar seu perfil
         </a>
       </footer>
