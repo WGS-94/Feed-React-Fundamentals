@@ -20,6 +20,7 @@ export function App() {
             author="wilson santos"
             content="Desenvolvedor web carneiroooo, tem que bucar mais kkkk"
           />
+          <Post />
         </main>
       </div>
     </div>
