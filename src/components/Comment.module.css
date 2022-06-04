@@ -30,6 +30,7 @@
 .commentContent header button {
   background: transparent;
   border: 0;
+  outline: 0;
   color: var(--gray-400);
   cursor: pointer;
   border-radius: 2px;
