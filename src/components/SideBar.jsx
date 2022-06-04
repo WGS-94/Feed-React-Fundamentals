@@ -17,7 +17,7 @@ export function SideBar() {
         <Avatar hasBorder={true} src="https://github.com/WGS-94.png" />
 
         <strong>Wilson Dos Santos</strong>
-        <span>WebGIS Developer </span>
+        <span>Web & Mobile Developer | NAFAU</span>
       </div>
 
       <footer>

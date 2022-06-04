@@ -44,7 +44,7 @@ export function App() {
       <Header />
 
       <div className={styles.wrapper}>
-        <SideBar />
+          <SideBar posts={posts} />
         <main>
           {posts.map((post) => {
               return (
