@@ -104,6 +104,7 @@ export function Post({ author, publishedAt, content }) {
             key={comment} 
             content={comment} 
             onDeleteComment={deleteComment} 
+            publishedAt={publishedAt}
           />
          )
        })}

@@ -1,12 +1,23 @@
 import React, { useState } from 'react';
+import { format, formatDistanceToNow } from 'date-fns';
+import ptBR from 'date-fns/locale/pt-BR';
 import { Avatar } from './Avatar';
 import { ThumbsUp, Trash } from 'phosphor-react';
 
 import styles from './Comment.module.css';
 
-export function Comment({content, onDeleteComment }) {
+export function Comment({content, onDeleteComment, publishedAt }) {
 
   const [likeCount, setLikeCount] = useState(0);
+
+  const publishedDateFormat = format(publishedAt, "d 'de' LLLL 'às' HH:mm'h'", {
+    locale: ptBR,
+  });
+
+  const publishedDateRelativeToNow = formatDistanceToNow(publishedAt, {
+    locale: ptBR,
+    addSuffix: true
+  });
 
   function handleDeleteComment() {
     onDeleteComment(content)
@@ -25,8 +36,8 @@ export function Comment({content, onDeleteComment }) {
           <header>
             <div className={styles.authorAndTime}>
               <strong>Wilson Dos Santos</strong>
-              <time title='12 de Maio às 10:13' dateTime='2022-05-12 10:13:38'>
-                cerca de 1h atrás
+              <time title={publishedDateFormat} dateTime={publishedAt.toISOString()}>
+                {publishedDateRelativeToNow}
               </time>
             </div>
             <button 

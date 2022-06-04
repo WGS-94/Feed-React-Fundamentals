@@ -33,7 +33,7 @@ const posts = [
       {type: "paragraph", content: "Acabei de subir mais um projeto no meu portifa. É um projeto que fiz no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀"},
       {type: "link", content: "wilson.design/nafauLabs"}
     ],
-    publishedAt: new Date('2022-06-02 20:00:00'),
+    publishedAt: new Date('2022-06-03 10:00:00'),
   },
 ];
 
@@ -42,7 +42,6 @@ export function App() {
   return (
     <div>
       <Header />
-
       <div className={styles.wrapper}>
           <SideBar posts={posts} />
         <main>
