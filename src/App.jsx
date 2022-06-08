@@ -10,9 +10,9 @@ const posts = [
   {
     id: 1,
     author: {
-      avatarUrl: "https://github.com/HVDgeek.png",
-      name: "Hiduino Domingos",
-      role: "CTO | NAFAU"
+      avatarUrl: "https://github.com/WGS-94.png",
+      name: "Helder De Oliveira",
+      role: "Costumer Success | NAFAU"
     },
     content: [
       {type: "paragraph", content: "Fala galeraa 👋"},
