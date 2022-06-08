@@ -45,6 +45,9 @@ Funcionalidades futuras
 <div align="center">
   <img src="https://user-images.githubusercontent.com/87288949/172735836-72452196-dd6b-4d39-90a6-1abccc1a7633.PNG">
 </div>
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/87288949/172736268-646b867a-5d7d-42b8-bd65-caa1e8d9364d.PNG">
+</div>
 
 ## 🧰 Tecnologias e Bibliotecas
 
