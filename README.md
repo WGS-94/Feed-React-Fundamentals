@@ -1,6 +1,3 @@
-# Ignite-Feed-React-Fundamentals
-Aprendendo fundamentos do ReatcJS utilizando o Vite
-
 <!-- Logotipo 
 <div align="center">
   <img src="./Assets/ignite.png">
@@ -10,7 +7,7 @@ Aprendendo fundamentos do ReatcJS utilizando o Vite
 <h2 align="center"> RocketSeat 🔥 Ignite ReactJS</h2>
 
 <!-- Subtitle -->
-<h2> Módulo 2 Atualizado - Aprendendo fundamentos do ReatcJS utilizando o Vite </h2>
+<h2> Módulo 2 - Aprendendo fundamentos do ReatcJS utilizando o Vite - Update</h2>
 
 <!-- Badges 
 <p align="center">
