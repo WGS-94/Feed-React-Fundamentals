@@ -49,7 +49,7 @@ Funcionalidades futuras
 ## 🧰 Tecnologias e Bibliotecas
 
 * [ReactJS](https://pt-br.reactjs.org/tutorial/tutorial.html)
-  * [Vite](https://www.npmjs.com/package/styled-components) - Biblioteca CSS in JS
+  * [Vite](https://www.npmjs.com/package/styled-components) - O Vite fornece código-fonte em ESM nativo
   * [phosphoricons](https://phosphoricons.com/) - Biblioteca for Icons in JS
 * [TypeScript](https://www.typescriptlang.org/)
 
