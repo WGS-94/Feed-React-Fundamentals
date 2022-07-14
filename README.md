@@ -4,7 +4,7 @@
 </div>-->
 
 <!-- Title -->
-<h2 align="center"> RocketSeat 🔥 Ignite ReactJS</h2>
+<h2 align="center"> RocketSeat - Ignite ReactJS 🔥</h2>
 
 <!-- Subtitle -->
 <h2> Módulo 2 - Aprendendo fundamentos do ReatcJS utilizando o Vite - Update</h2>
